@@ -1,0 +1,23 @@
+.header {
+  height: 60px;
+  width: 100%;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+.header .header--cart {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.header .header--cart .header--cart--icon {
+  width: 30px;
+}
+.no-of-items {
+  font-size: 1.3rem;
+  margin-top: 3px;
+}

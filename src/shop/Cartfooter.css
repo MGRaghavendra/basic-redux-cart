@@ -1,0 +1,27 @@
+.cartfooter {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 100%;
+  border-radius: 5px;
+}
+.cartfooter h1 {
+  flex: 1;
+  text-align: right;
+  margin-right: 20px;
+}
+.cartfooter h1 span {
+  color: red;
+  font-weight: 500;
+}
+.cartfooter button {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border: none;
+}
